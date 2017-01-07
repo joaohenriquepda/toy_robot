@@ -1,4 +1,5 @@
-# Toy Robot Simulator
+#Resolvendo o problema Toy Robot com o uso de técnica do TDD.
+## Toy Robot Simulator
 
 Please provide your source code, and any test code/data
 you using in developing your solution.
@@ -11,7 +12,7 @@ as collaborators.) Do not create a pull request against this repository.
 Please engineer your solution to a standard you consider
 suitable for production.
 
-## Description
+### Description
 
 * The application is a simulation of a toy robot moving
 on a square tabletop, of dimensions 5 units x 5 units.
@@ -22,7 +23,7 @@ Any movement that would result in the robot falling
 from the table must be prevented, however further
 valid movement commands must still be allowed.
 
-## Task
+### Task
 
 Create an application that can read in commands of the following form:
 
@@ -57,7 +58,7 @@ to ignore the `MOVE`, `LEFT`, `RIGHT` and `REPORT` commands.
 * It is not required to provide any graphical output
 showing the movement of the toy robot.
 
-## Constraints
+### Constraints
 
 The toy robot must not fall off the table during movement.
 This also includes the initial placement of the toy robot.
@@ -94,6 +95,6 @@ REPORT
 # Output: 3,3,NORTH
 ```
 
-## Acknowledgement
+### Acknowledgement
 
 The Toy Robot Challenge was originally formulated by [Jon Eaves](https://twitter.com/joneaves)
